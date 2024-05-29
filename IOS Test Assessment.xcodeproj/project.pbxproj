@@ -31,6 +31,7 @@
 		6CAF76192C0722C700B6997B /* ComputationCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF76182C0722C600B6997B /* ComputationCacheTests.swift */; };
 		6CAF761B2C07233900B6997B /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF761A2C07233900B6997B /* NetworkManagerTests.swift */; };
 		6CAF761D2C07242700B6997B /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF761C2C07242700B6997B /* MockNetworkManager.swift */; };
+		6CAF761F2C07D42A00B6997B /* Enviroments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF761E2C07D42A00B6997B /* Enviroments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		6CAF76182C0722C600B6997B /* ComputationCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationCacheTests.swift; sourceTree = "<group>"; };
 		6CAF761A2C07233900B6997B /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		6CAF761C2C07242700B6997B /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		6CAF761E2C07D42A00B6997B /* Enviroments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				6CAF76062C06FAF400B6997B /* ComputationCache.swift */,
 				6CAF76122C070B2800B6997B /* Constants.swift */,
 				6CAF76162C07149900B6997B /* Error+Helpers.swift */,
+				6CAF761E2C07D42A00B6997B /* Enviroments.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				6CAF75C92C06F77F00B6997B /* MainViewController.swift in Sources */,
 				6CAF76012C06F9E400B6997B /* PostViewModel.swift in Sources */,
 				6CAF75C52C06F77F00B6997B /* AppDelegate.swift in Sources */,
+				6CAF761F2C07D42A00B6997B /* Enviroments.swift in Sources */,
 				6CAF75C72C06F77F00B6997B /* SceneDelegate.swift in Sources */,
 				6CAF76132C070B2800B6997B /* Constants.swift in Sources */,
 				6CAF76032C06F9F600B6997B /* NetworkManager.swift in Sources */,

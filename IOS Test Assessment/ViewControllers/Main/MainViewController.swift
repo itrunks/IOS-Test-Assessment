@@ -22,7 +22,6 @@ class MainViewController: UIViewController {
       DispatchQueue.main.async {
         self?.tableView.reloadData()
       }
-
     }
     viewModel.fetchPosts()
   }

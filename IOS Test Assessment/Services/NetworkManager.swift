@@ -21,7 +21,7 @@ class NetworkManager {
     ///   - limit: The maximum number of posts per page.
     ///   - completion: A closure to be called when the fetch completes, containing an optional array of `Post` objects and an optional error.
     func fetchPosts(page: Int, limit: Int, completion: @escaping ([Post]?, Error?) -> Void) {
-        let urlString = "https://jsonplaceholder.typicode.com/posts?_page=\(page)&_limit=\(limit)"
+        let urlString = "\(Constants.API.baseURL)\(Constants.API.postsEndpoint)?_page=\(page)&_limit=\(limit)"
         guard let url = URL(string: urlString) else {
             completion(nil, NetworkError.invalidURL)
             return
